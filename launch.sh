@@ -6,7 +6,7 @@ mkdir -p ./3bit_checkpoint
 
 export SMTP_HOST="smtp.qq.com"
 export SMTP_USER="3031817469@qq.com"
-export SMTP_PASSWORD="hksgzzigjmspddac"
+export SMTP_PASSWORD=""
 export SMTP_TO="3031817469@qq.com"
 
 notify_on_exit() {
