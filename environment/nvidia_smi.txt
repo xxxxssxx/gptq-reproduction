@@ -1,0 +1,70 @@
+Thu Oct 15 11:40:12 2026       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.309.01             Driver Version: 535.309.01   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  Tesla V100-SXM2-32GB           Off | 00000000:01:00.0 Off |                    0 |
+| N/A   50C    P0             266W / 300W |  12182MiB / 32768MiB |    100%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   1  Tesla V100-SXM2-32GB           Off | 00000000:02:00.0 Off |                    0 |
+| N/A   25C    P0              39W / 300W |     13MiB / 32768MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   2  Tesla V100-SXM2-32GB           Off | 00000000:03:00.0 Off |                    0 |
+| N/A   27C    P0              39W / 300W |     13MiB / 32768MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   3  Tesla V100-SXM2-32GB           Off | 00000000:04:00.0 Off |                    0 |
+| N/A   25C    P0              38W / 300W |     13MiB / 32768MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   4  Tesla V100-SXM2-32GB           Off | 00000000:05:00.0 Off |                    0 |
+| N/A   28C    P0              39W / 300W |     13MiB / 32768MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   5  Tesla V100-SXM2-32GB           Off | 00000000:06:00.0 Off |                    0 |
+| N/A   27C    P0              41W / 300W |     13MiB / 32768MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   6  Tesla V100-SXM2-32GB           Off | 00000000:07:00.0 Off |                    0 |
+| N/A   27C    P0              40W / 300W |     13MiB / 32768MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   7  Tesla V100-SXM2-32GB           Off | 00000000:08:00.0 Off |                    0 |
+| N/A   28C    P0              41W / 300W |     13MiB / 32768MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|    0   N/A  N/A   1464540      G   /usr/lib/xorg/Xorg                            4MiB |
+|    0   N/A  N/A   1686273    C+G   ...1/usr/bin/snapd-desktop-integration       12MiB |
+|    0   N/A  N/A   1686280    C+G   ...1/usr/bin/snapd-desktop-integration       12MiB |
+|    0   N/A  N/A   1686332    C+G   ...1/usr/bin/snapd-desktop-integration       11MiB |
+|    0   N/A  N/A   1686340    C+G   ...1/usr/bin/snapd-desktop-integration       12MiB |
+|    0   N/A  N/A   1774083      G   /usr/lib/xorg/Xorg                            4MiB |
+|    0   N/A  N/A   1782508    C+G   ...1/usr/bin/snapd-desktop-integration       12MiB |
+|    0   N/A  N/A   1960022    C+G   ...1/usr/bin/snapd-desktop-integration       12MiB |
+|    0   N/A  N/A   2223109      C   python                                    12092MiB |
+|    1   N/A  N/A   1464540      G   /usr/lib/xorg/Xorg                            4MiB |
+|    1   N/A  N/A   1774083      G   /usr/lib/xorg/Xorg                            4MiB |
+|    2   N/A  N/A   1464540      G   /usr/lib/xorg/Xorg                            4MiB |
+|    2   N/A  N/A   1774083      G   /usr/lib/xorg/Xorg                            4MiB |
+|    3   N/A  N/A   1464540      G   /usr/lib/xorg/Xorg                            4MiB |
+|    3   N/A  N/A   1774083      G   /usr/lib/xorg/Xorg                            4MiB |
+|    4   N/A  N/A   1464540      G   /usr/lib/xorg/Xorg                            4MiB |
+|    4   N/A  N/A   1774083      G   /usr/lib/xorg/Xorg                            4MiB |
+|    5   N/A  N/A   1464540      G   /usr/lib/xorg/Xorg                            4MiB |
+|    5   N/A  N/A   1774083      G   /usr/lib/xorg/Xorg                            4MiB |
+|    6   N/A  N/A   1464540      G   /usr/lib/xorg/Xorg                            4MiB |
+|    6   N/A  N/A   1774083      G   /usr/lib/xorg/Xorg                            4MiB |
+|    7   N/A  N/A   1464540      G   /usr/lib/xorg/Xorg                            4MiB |
+|    7   N/A  N/A   1774083      G   /usr/lib/xorg/Xorg                            4MiB |
++---------------------------------------------------------------------------------------+
